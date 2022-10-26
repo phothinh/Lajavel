@@ -1,0 +1,8 @@
+<html>
+<head>
+
+<h1>{{ person.firstname }}</h1>
+<h1>{{ person2.toString() }}</h1>
+
+</head>
+</html>
