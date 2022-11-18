@@ -4,15 +4,17 @@ import App.Models.Enums.Continent;
 
 public class Partnair {
 
-    public String name;
-    public Continent continent;
-    public String description;
+    public String firstname;
+    public String lastname;
+    public String imgURL;
 
-    public Partnair(String name, Continent continent, String description)
+
+    public Partnair(String firstname, String lastname, String imgURL)
     {
-        this.name = name;
-        this.continent = continent;
-        this.description = description;
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.imgURL = imgURL;
+
     }
 
 }

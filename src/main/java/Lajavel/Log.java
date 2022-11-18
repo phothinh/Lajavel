@@ -66,7 +66,6 @@ public final class Log {
                 if(applicationLevel >= Level.WARN.level)
                     getInstance().logger.warn(message);
                 break;
-
         }
     }
 }

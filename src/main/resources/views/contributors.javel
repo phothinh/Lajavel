@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Contributors</title>
+</head>
+<body>
+
+    <div class="header">
+        <header>
+
+            <img class="logo" src="/images/logo/logo.png" alt="Placeholder image">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="http://localhost:7071/">HOME</a></li>
+                    <li><a href="http://localhost:7071/getting-started">GET STARTED</a></li>
+                    <li><a class="white" href="http://localhost:7071/contributors">CONTRIBUTORS</a></li>
+                </ul>
+            </nav>
+            <a href="https://github.com/DamienDabernat/Lajavel" target="_blank"><button class="btn-docu">DOCUMENTATION</button></a>
+
+        </header>
+
+        <img class="banner-c" src="/images/contributors/illustration-1.png" alt="Placeholder image">
+
+        <div class="title-container-c">
+            <h1>CONTRIBUTORS</h1>
+            <h3> FIND A CONTRIBUTOR TO HELP YOU</br> WITH YOUR NEXT PROJECT</h3>
+        </div>
+    </div>
+
+    <div class="spotlight">
+
+        <div class="container">
+            <h3 class="spotlight-h3">Contributors Spotlight</h3>
+            <h2>{{krusty.name}}</h2>
+            <h4>{{krusty.continent}}</h4>
+            <p>{{krusty.description}}</p>
+            <img class="spotlight-img" src={{krusty.image}} alt="Placeholder image">
+            <h3 class="spotlight-h3-2">Featured Contributors</h3>
+
+        </div>
+    </div>
+
+
+    <div class="contributors">
+        <h3 class="contributors-h3">Featured Contributors</h3>
+        <div class="contributors-list">
+            <div class="contributors-box">
+                <h2>{{moe.name}}</h2>
+                <h4>{{moe.continent}}</h4>
+                <p>{{moe.description}}</p>
+                <img class="contributors-img" src={{moe.image}} alt="Placeholder image">
+                <h3 class="contributors-h3-2">Featured Contributor</h3>
+            </div>
+
+            <div class="contributors-box">
+                <h2>{{nuclear.name}}</h2>
+                <h4>{{nuclear.continent}}</h4>
+                <p>{{nuclear.description}}</p>
+                <img class="contributors-img" src={{nuclear.image}} alt="Placeholder image">
+                <h3 class="contributors-h3-2">Featured Contributor</h3>
+            </div>
+
+            <div class="contributors-box">
+                <h2>{{school.name}}</h2>
+                <h4>{{school.continent}}</h4>
+                <p>{{school.description}}</p>
+                <img class="contributors-img" src={{school.image}} alt="Placeholder image">
+                <h3 class="contributors-h3-2">Featured Contributor</h3>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="footer3">
+        <footer class="footer3-2">
+            <img class="footer-img" src="/images/logo/logo.png" alt="Placeholder image">
+            <p>Lajavel is committed to delivering the best testing experience you can imagine. No more brittle tests that are a nightmare to maintain. Beautiful testing APIs, database seeding, and painless browser testing let you ship with confidence.</p>
+
+            <div class ="social">
+                <img src="/images/footer/twitter.png" alt="Placeholder image">
+                <img src="/images/footer/github.png" alt="Placeholder image">
+                <img src="/images/footer/discord.png" alt="Placeholder image">
+                <img src="/images/footer/youtube.png" alt="Placeholder image">
+            </div>
+
+            <hr>
+
+            <p>Lajavel is a Trademark of M1-MDS. Copyright © 2022 Lajavel HP.</p>
+            <p>Code highlighting provided by Henri PHOTHINANTHA</p>
+        </footer>
+    </div>
+
+
+</body>
+</html>

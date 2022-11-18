@@ -1,5 +1,6 @@
 package App;
 
+import App.Controllers.ContributorsController;
 import App.Controllers.StartController;
 import Lajavel.*;
 import App.Controllers.IndexController;
@@ -15,9 +16,14 @@ public class Main {
                 "index");
 
         Route.register(HTTPVerb.GET,
-                "/Getting-Started",
+                "/getting-started",
                 StartController.class,
                 "start");
+
+        Route.register(HTTPVerb.GET,
+                "/contributors",
+                ContributorsController.class,
+                "contributors");
 
 
     }

@@ -1,8 +1,103 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-<h1>{{ person.firstname }}</h1>
-<h1>{{ person2.toString() }}</h1>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Home</title>
 </head>
+<body>
+
+
+    <header>
+
+        <img class="logo" src="/images/logo/logo.png" alt="Placeholder image">
+        <nav>
+            <ul class="nav-links">
+                <li><a class="white" href="http://localhost:7071/">HOME</a></li>
+                <li><a href="http://localhost:7071/getting-started">GET STARTED</a></li>
+                <li><a href="http://localhost:7071/contributors">CONTRIBUTORS</a></li>
+            </ul>
+        </nav>
+        <a href="https://github.com/DamienDabernat/Lajavel" target="_blank"><button class="btn-docu">DOCUMENTATION</button></a>
+
+    </header>
+
+    <img class="banner" src="/images/index/illustration-1.png" alt="Placeholder image">
+
+    <div class="title-container">
+        <h1>LAJAVEL</h1>
+        <h3>THE BEST FRAMEWORK OF </br>SPRINGFIELD</h3>
+        <a href="http://localhost:7071/getting-started"><button class="btn-start">GET STARTED</button></a>
+    </div>
+
+    <img class="banner2" src="/images/index/illustration-2.png" alt="Placeholder image">
+
+    <div class="joycode">
+        <img class="codeimg" src="/images/index/code.png" alt="Placeholder image">
+        <h2>Write code for the joy of it.</h2>
+        <p>Lajavel values beauty. We love clean code just as much as you do. Simple, elegant syntax puts amazing functionality at your fingertips. Every feature has been thoughtfully considered to provide a wonderful developer experience.</p>
+    </div>
+
+    <div class="sponsors">
+        <h4>LAJAVEL'S</h4>
+        <h2>SPONSORS</h2>
+
+        <div class="les-sponsors">
+            <div class="sponsor">
+                <img src={{burns.imgURL}} alt="Placeholder image">
+                <p>{{burns.firstname}}</br>{{burns.lastname}}</p>
+            </div>
+
+            <div class="sponsor">
+                <img src={{otto.imgURL}} alt="Placeholder image">
+                <p>{{otto.firstname}} {{otto.lastname}}</p>
+            </div>
+
+            <div class="sponsor">
+                <img src={{homer.imgURL}} alt="Placeholder image">
+                <p>{{homer.firstname}} {{homer.lastname}}</p>
+            </div>
+
+            <div class="sponsor">
+                <img src={{skinner.imgURL}} alt="Placeholder image">
+                <p>{{skinner.firstname}} {{skinner.lastname}}</p>
+            </div>
+
+            <div class="sponsor">
+                <img src={{krusty.imgURL}} alt="Placeholder image">
+                <p>{{krusty.firstname}} {{krusty.lastname}}</p>
+            </div>
+        </div>
+    </div>
+
+    <img class="bg-donuts" src="/images/index/bg-donuts.png" alt="Placeholder image">
+
+
+    <div class="ide-code">
+        <img class="ide-img" src="/images/index/ide.png" alt="Placeholder image">
+        <h2>Move fast... with confidence.</h2>
+        <p>Lajavel is committed to delivering the best testing experience you can imagine. No more brittle tests that are a nightmare to maintain. Beautiful testing APIs, database seeding, and painless browser testing let you ship with confidence.</p>
+    </div>
+
+    <footer class="footer1">
+        <img class="footer-img" src="/images/logo/logo.png" alt="Placeholder image">
+        <p>Lajavel is committed to delivering the best testing experience you can imagine. No more brittle tests that are a nightmare to maintain. Beautiful testing APIs, database seeding, and painless browser testing let you ship with confidence.</p>
+
+        <div class ="social">
+            <img src="/images/footer/twitter.png" alt="Placeholder image">
+            <img src="/images/footer/github.png" alt="Placeholder image">
+            <img src="/images/footer/discord.png" alt="Placeholder image">
+            <img src="/images/footer/youtube.png" alt="Placeholder image">
+        </div>
+
+        <hr>
+
+        <p>Lajavel is a Trademark of M1-MDS. Copyright © 2022 Lajavel HP.</p>
+        <p>Code highlighting provided by Henri PHOTHINANTHA</p>
+    </footer>
+
+
+</body>
 </html>

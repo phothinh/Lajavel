@@ -1,7 +1,78 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-<h1>Test</h1>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Getting Started</title>
 </head>
+<body>
+
+
+    <header>
+
+        <img class="logo" src="/images/logo/logo.png" alt="Placeholder image">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="http://localhost:7071/">HOME</a></li>
+                <li><a class="purple" href="http://localhost:7071/getting-started">GET STARTED</a></li>
+                <li><a href="http://localhost:7071/contributors">CONTRIBUTORS</a></li>
+            </ul>
+        </nav>
+        <a href="https://github.com/DamienDabernat/Lajavel" target="_blank"><button class="btn-docu">DOCUMENTATION</button></a>
+
+    </header>
+
+    <img class="banner-start" src="/images/start/illustration-1.png" alt="Placeholder image">
+
+    <div class="start-title-container">
+        <h2>GETTING</h2>
+        <h1>STARTED</h1>
+        <h3>WELCOME TO THE BEST FRAMEWORK</br>OF SPRINGFIELD</h3>
+    </div>
+
+    <img class="banner-start2" src="/images/start/illustration-2.png" alt="Placeholder image">
+
+    <div class="meet">
+        <h2>Meet Lajavel</h2>
+        <img id="yellow" src="/images/start/yellow.png">
+        <p id="p1">Lajavel is a web application framework with expressive, elegant syntax. A web framework provides a structure and starting point for creating your application, allowing you to focus on creating something amazing while we sweat the details.</p>
+        <img id="pink" src="/images/start/pink.png">
+        <p id="p2">Lajavel strives to provide an amazing developer experience while providing powerful features such as thorough dependency injection, an expressive database abstraction layer, queues and scheduled jobs, unit and integration testing, and more.</p>
+        <img id="purple" src="/images/start/purple.png">
+        <p id="p3">Whether you are new to Java web frameworks or have years of experience, Laravel is a framework that can grow with you. We'll help you take your first steps as a web developer or give you a boost as you take your expertise to the next level. We can't wait to see what you build.</p>
+    </div>
+
+    <div class="why">
+        <img class="why-img" src="/images/start/illustration-3.png">
+        <h2>Why Lajavel ?</h2>
+        <p id="whyp1">There are a variety of tools and frameworks available to you when building a web application. However, we believe Laravel is the best choice for building modern, full-stack web applications.</p>
+        <h4 id="whyh1">A Progressive Framework</h4>
+        <p id="whyp2">We like to call Lajavel a "progressive" framework. By that, we mean that Laravel grows with you. If you're just taking your first steps into web development, Lajavel's vast library of documentation, guides, and video tutorials will help you learn the ropes without becoming overwhelmed.</p>
+        <h4 id="whyh2">A Scalable Framework</h4>
+        <p id="whyp3">Lajavel is incredibly scalable. Thanks to the scaling-friendly nature of Java and Lajavel's built-in support for fast, distributed cache systems like Redis, horizontal scaling with Lajavel is a breeze. In fact, Lajavel applications have been easily scaled to handle hundreds of millions of requests per month.</p>
+        <h4 id="whyh3">A Community Framework</h4>
+        <p id="whyp4">Lajavel combines the best packages in the Java ecosystem to offer the most robust and developer friendly framework available. In addition, thousands of talented developers from around the world have contributed to the framework. Who knows, maybe you'll even become a Lajavel contributor.</p>
+    </div>
+
+    <footer class="footer2">
+        <img class="footer-img" src="/images/logo/logo.png" alt="Placeholder image">
+        <p>Lajavel is committed to delivering the best testing experience you can imagine. No more brittle tests that are a nightmare to maintain. Beautiful testing APIs, database seeding, and painless browser testing let you ship with confidence.</p>
+
+        <div class ="social">
+            <img src="/images/footer/twitter.png" alt="Placeholder image">
+            <img src="/images/footer/github.png" alt="Placeholder image">
+            <img src="/images/footer/discord.png" alt="Placeholder image">
+            <img src="/images/footer/youtube.png" alt="Placeholder image">
+        </div>
+
+        <hr>
+
+        <p>Lajavel is a Trademark of M1-MDS. Copyright © 2022 Lajavel HP.</p>
+        <p>Code highlighting provided by Henri PHOTHINANTHA</p>
+    </footer>
+
+
+</body>
 </html>

@@ -24,10 +24,10 @@ public class Application {
 
     private Application(int port, Mode mode) {
         this.port = port;
-        this.server = Javalin.create().start(this.port);
-        /*this.server = Javalin.create(config -> {
+        //this.server = Javalin.create().start(this.port);
+        this.server = Javalin.create(config -> {
             config.addStaticFiles("/public", Location.CLASSPATH);
-        }).start(this.port);*/
+        }).start(this.port);
         this.mode = mode;
     }
 
